@@ -40,13 +40,13 @@
 
 
 <script src="js/jquery.firefly.js"></script>
-	
-	<script>
-	$(document).ready(function() {
-		$.firefly({images : ['images/foreground.png', 'images/midground.png'],total : 40}); 	
-	});
-	</script>
-	
+  
+  <script>
+  $(document).ready(function() {
+    $.firefly({images : ['images/foreground.png', 'images/midground.png'],total : 40});   
+  });
+  </script>
+  
 
 
 <script type="text/javascript">
@@ -63,26 +63,26 @@ newDate.setDate(newDate.getDate());
 $('#Date').html(dayNames[newDate.getDay()] + " " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
 
 setInterval( function() {
-	// Create a newDate() object and extract the seconds of the current time on the visitor's
-	var seconds = new Date().getSeconds();
-	// Add a leading zero to seconds value
-	$("#sec").html(( seconds < 10 ? "0" : "" ) + seconds);
-	},1000);
-	
+  // Create a newDate() object and extract the seconds of the current time on the visitor's
+  var seconds = new Date().getSeconds();
+  // Add a leading zero to seconds value
+  $("#sec").html(( seconds < 10 ? "0" : "" ) + seconds);
+  },1000);
+  
 setInterval( function() {
-	// Create a newDate() object and extract the minutes of the current time on the visitor's
-	var minutes = new Date().getMinutes();
-	// Add a leading zero to the minutes value
-	$("#min").html(( minutes < 10 ? "0" : "" ) + minutes);
+  // Create a newDate() object and extract the minutes of the current time on the visitor's
+  var minutes = new Date().getMinutes();
+  // Add a leading zero to the minutes value
+  $("#min").html(( minutes < 10 ? "0" : "" ) + minutes);
     },1000);
-	
+  
 setInterval( function() {
-	// Create a newDate() object and extract the hours of the current time on the visitor's
-	var hours = new Date().getHours();
-	// Add a leading zero to the hours value
-	$("#hours").html(( hours < 10 ? "0" : "" ) + hours);
+  // Create a newDate() object and extract the hours of the current time on the visitor's
+  var hours = new Date().getHours();
+  // Add a leading zero to the hours value
+  $("#hours").html(( hours < 10 ? "0" : "" ) + hours);
     }, 1000);
-	
+  
 }); 
 </script>
 
@@ -106,16 +106,37 @@ setInterval( function() {
       <tr>
         <td width="122"><img border="0" src="images/logo.png"></td>
         <td width="693" class="followtxt">
-        <p align="right">Social Media:</td>
+        <p align="right">Социальные сети:</td>
         <td width="91">
         <p align="center"><a href="http://facebook.com">
         <img border="0" src="images/facebook.png" class="logofx"></a>
         <a href="http://twitter.com">
         <img border="0" src="images/twitter.png" class="logofx"></a></td>
         <td width="294">
-        <p align="center">        <a class="logologin" href="index.html@a=login.html" style="text-decoration: none">Login</a>
+        <p align="center">        <a class="logologin" href="index.html@a=login.html" style="text-decoration: none">Войти</a>
         <a class="logoregister" href="index.html@a=signup.html" style="text-decoration: none">
-        Create Your Account</a>        </td>
+        Создать аккаунт</a>        </td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="1349">
+  <tr>
+    <td width="100%">
+    <center>
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="1200">
+      <tr>
+        <td width="100%"><UL id="menu"><li><span><a class="current" href="index.html@a=home.html">Домой</a></span></li>
+<li><a href='index.html@a=signup.html'><span>Регистрация</span></a></li>
+<li><a href='index.html@a=news.html'><span>Новости</span></a></li>
+<li><a href='index.html@a=cust&amp;page=about.html'><span>Про нас</span></a></li>
+<li><a href='index.html@a=payment.html'><span>Оплата</span></a></li>
+<li><a href='index.html@a=faq.html'><span>F.A.Q</span></a></li>
+<li><a href='index.html@a=cust&amp;page=rate.html'><span>Мониторинг</span></a></li>
+<li><a href='index.html@a=support.html'><span>Поддержка</span></a></li>
+</ul></td>
       </tr>
     </table>
     </td>
